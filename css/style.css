@@ -1,0 +1,43 @@
+header{
+  background-color: red;
+  margin:auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,h3{
+  color: #240000;
+  text-decoration: underline;
+text-align: center;}
+div{
+  text-align: left;
+  text-decoration: none;
+}
+.main{
+  background-color: #009298;
+  width: auto;
+  text-align: center;
+  line-height: 2em;
+   margin: 5% 28%;
+
+}
+.line:nth-of-type(odd){
+  background-color: blue;
+
+}
+button{
+  background-color: #000098;
+  display: block;
+  width: 100px;
+  margin: auto;
+
+}
+input[type="checkbox" ]:checked+label{
+  text-decoration: line-through;
+  border: 1px solid red;
+
+}
+html{
+  background-color: grey;
+}
